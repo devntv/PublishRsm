@@ -164,7 +164,7 @@ const Resume = () => {
 
                             The project manages daily tasks with the reactJS library developed by Facebook. With functions including: add, delete, edit, update, search, ... but only support responsive on the computer
 
-                            <Link className={classes.vinhProjectHover} href="http://vinhwork.000webhostapp.com" target="_blank">
+                            <Link className={classes.vinhProjectHover} href="https://devntv.github.io/toDowork/" target="_blank">
                                 My project react 1
                             </Link>
                         </Typography>
