@@ -164,7 +164,7 @@ const Resume = () => {
 
                             The project manages daily tasks with the reactJS library developed by Facebook. With functions including: add, delete, edit, update, search, ... but only support responsive on the computer
 
-                            <Link className={classes.vinhProjectHover} href="https://devntv.github.io/toDowork/" target="_blank">
+                            <Link className={classes.vinhProjectHover} href="https://devntv.github.io/TodoWork/" target="_blank">
                                 My project react 1
                             </Link>
                         </Typography>
@@ -202,20 +202,17 @@ const Resume = () => {
                         </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading}>
-                            React MovieCyber Website
+                            React ToDo Plan Basiclly
                             </Typography>
                         <Typography variant="body1" align="center" style={{ color: "#00e49a" }} className={classes.subDes}>
-                            WEBSITE -NETFLIX
+                            ToDo-Plan
                             </Typography>
                         <Typography variant="subtitle1" align="center" style={{ color: "white" }}>
-                            React (also known as React. js or ReactJS) is a JavaScript library for building user interfaces.
-                            It is maintained by Facebook and a community of individual developers and companies.
-                            [Now: project 3 currently doing]
-                            <Link className={classes.vinhProjectHover} href="#"
-                                onClick={() => {
-                                    alert("sắp hoàn thành :((.");
-                                }} >
-                                Project 3 is comming soon...
+                            The Project used (React-hook, useState, useRef,..) 2020- basic and ES6 in javascript, it is a project basic for beginer React
+                            developer ]
+                            <Link className={classes.vinhProjectHover} href="https://devntv.github.io/todoPlan/" target="_blank" 
+                               >
+                               My Project 3
                             </Link>
                         </Typography>
                     </Box>
@@ -227,7 +224,7 @@ const Resume = () => {
                         </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading}>
-                            Website Sell Product
+                            Coming soon
                             </Typography>
                         <Typography variant="body1" align="center" style={{ color: "#00e49a" }} className={classes.subDes}>
                             I need a name beauty
@@ -240,7 +237,7 @@ const Resume = () => {
                                 onClick={() => {
                                     alert("đang suy nghĩ :((.");
                                 }} >
-                                Project 4 is thinking...
+                                Project 4 is Coming soon...
                             </Link>
                             </Typography>
                     </Box>

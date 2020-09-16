@@ -28,9 +28,13 @@ const useStyles = makeStyles(theme=>({
         zIndex: 1
     }
 }))
+
 const Header = () => {
     const classes = useStyles();
     return (
+       
+          
+         
         <Box className={classes.typedContainer}>
             <Grid container justify="center">
                 <Avatar className={classes.avatar} src={avatar1} alt="Dinh handsome "/> 
@@ -49,13 +53,8 @@ const Header = () => {
             <Typed
                 strings={[
                     'Hello World  ✔',
-                    'Hello anyOne ✔  ',
-                    'Hello and have a good day ❤️️',
-                    'Hello and have a good month 💙',
-                    'Hello and have a good year 💚',
-                    'Hello and have a good next year 💛',
-                    'AND',
-                    'Happy Lucking or have a good life 💕']}
+                    'Hello , Who is here ?  ',
+                    'Happy Lucking 💕']}
                     typeSpeed={40}
                     backSpeed={50}   
                     
@@ -64,6 +63,7 @@ const Header = () => {
             </Typography>
 
         </Box>
+     
     )
 }
 

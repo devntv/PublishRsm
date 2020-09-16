@@ -6,6 +6,11 @@ import { makeStyles } from '@material-ui/core/styles';
 import avatar1 from "../vinhbaby.jpg";
 import MobilRightMenuSlider from "@material-ui/core/Drawer";
 import Footer from "./Footer";
+import Brightness4Icon from '@material-ui/icons/Brightness4';
+//import {ThemeProvider, createGlobalStyle} from 'styled-components';
+
+
+
 
 //css style 
 const useStyles =makeStyles(theme =>({
@@ -72,6 +77,7 @@ const Navbar = () => {
     }
 
     
+    
 
     const classes = useStyles();
 
@@ -89,8 +95,11 @@ const Navbar = () => {
         </List>
         </Box>
     )
+
     return (
-        <>
+       
+            <>
+           
         <Box component="nav" >
             <AppBar position ="fixed" style ={{background:"#20232a"}}>
                 <Toolbar >
@@ -98,10 +107,10 @@ const Navbar = () => {
                          <MenuOpen style={{color:"#61dafb",fontSize:"40px"}} />
                     </IconButton>  
                     <Toolbar className ={classes.gitHubLink}>
-                    <Typography  variant="h6" style={{color:"#f8f8f8"}}>
-                             <span style={{color:"#00e49a"}}> Vinh </span>R<span  style={{color:"#00e49a"}}>e̳</span>sum<span  style={{color:"#00e49a"}}>e̳</span>
+                    <Typography  variant="h6" style={{color:"#f8f8f8",marginLeft:"-30px"}}>
+                             <span style={{color:"#c6ff92"}}>My </span>M<span  style={{color:"#00e49a"}}>e̳</span>n<span  style={{color:"#fff"}}>u</span>
                     </Typography>  
-                    <FavoriteBorder  style={{color:"#61dafb",marginLeft:"5px"}} />       
+                    {/* <Brightness4Icon style={{color:"fff",marginLeft:"5px", cursor:"pointer"}} />        */}
                     </Toolbar>                               
                          <MobilRightMenuSlider 
                                 anchor="right" 
@@ -117,7 +126,10 @@ const Navbar = () => {
                 </Toolbar>                  
             </AppBar>          
         </Box>
+
+
         </>
+       
     )
 }
 
