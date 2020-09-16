@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/PublishRsm/static/css/main.87ddc0a7.chunk.css",
+    "main.js": "/PublishRsm/static/js/main.116a38bf.chunk.js",
+    "main.js.map": "/PublishRsm/static/js/main.116a38bf.chunk.js.map",
+    "runtime-main.js": "/PublishRsm/static/js/runtime-main.7592a443.js",
+    "runtime-main.js.map": "/PublishRsm/static/js/runtime-main.7592a443.js.map",
+    "static/js/2.e1068c6d.chunk.js": "/PublishRsm/static/js/2.e1068c6d.chunk.js",
+    "static/js/2.e1068c6d.chunk.js.map": "/PublishRsm/static/js/2.e1068c6d.chunk.js.map",
+    "index.html": "/PublishRsm/index.html",
+    "precache-manifest.63ad0da62dde2a2ef79728c72d2e0063.js": "/PublishRsm/precache-manifest.63ad0da62dde2a2ef79728c72d2e0063.js",
+    "service-worker.js": "/PublishRsm/service-worker.js",
+    "static/css/main.87ddc0a7.chunk.css.map": "/PublishRsm/static/css/main.87ddc0a7.chunk.css.map",
+    "static/js/2.e1068c6d.chunk.js.LICENSE.txt": "/PublishRsm/static/js/2.e1068c6d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/PublishRsm/static/media/w1.20862f7e.jpg",
+    "static/media/html-css-javascript-lg.jpg": "/PublishRsm/static/media/html-css-javascript-lg.54fd4234.jpg",
+    "static/media/javascript-fullstack.jpg": "/PublishRsm/static/media/javascript-fullstack.730958a2.jpg",
+    "static/media/mern-stack.jpg": "/PublishRsm/static/media/mern-stack.90616a5d.jpg",
+    "static/media/react-redux.jpg": "/PublishRsm/static/media/react-redux.a8b012a0.jpg",
+    "static/media/vinhbaby.jpg": "/PublishRsm/static/media/vinhbaby.99770543.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7592a443.js",
+    "static/js/2.e1068c6d.chunk.js",
+    "static/css/main.87ddc0a7.chunk.css",
+    "static/js/main.116a38bf.chunk.js"
+  ]
+}
