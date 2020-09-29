@@ -243,7 +243,7 @@ const Resume = () => {
                         </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading}>
-                            Project 6
+                            Project 5
                             </Typography>
                         <Typography variant="body1" align="center" style={{ color: "#00e49a" }} className={classes.subDes}>
                             Strarting....
