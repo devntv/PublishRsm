@@ -165,7 +165,7 @@ const Resume = () => {
                             The project manages daily tasks with the reactJS library developed by Facebook. With functions including: add, delete, edit, update, search, ... but only support responsive on the computer
 
                             <Link className={classes.vinhProjectHover} href="https://devntv.github.io/TodoWork/" target="_blank">
-                                My project react 1
+                                My project 1
                             </Link>
                         </Typography>
                     </Box>
@@ -182,7 +182,7 @@ const Resume = () => {
                             React See images
                             </Typography>
                         <Typography variant="body1" align="center" style={{ color: "#00e49a" }} className={classes.subDes}>
-                            DinhApi Images
+                            ImagesApi
                             </Typography>
                         <Typography variant="subtitle1" align="center" style={{ color: "white" }}>
                             The project manages daily tasks with the reactJS library developed by Facebook.
@@ -190,7 +190,7 @@ const Resume = () => {
                             React-infinte-scroll, Axios, react reveal,...
                             <Link className={classes.vinhProjectHover} href="https://devntv.github.io/seeImages/"
                                 target="_blank"          >
-                                My project react 2
+                                My project 2
                             </Link>
                         </Typography>
                     </Box>
@@ -210,9 +210,9 @@ const Resume = () => {
                         <Typography variant="subtitle1" align="center" style={{ color: "white" }}>
                             The Project used (React-hook, useState, useRef,..) 2020- basic and ES6 in javascript, it is a project basic for beginer React
                             developer ]
-                            <Link className={classes.vinhProjectHover} href="https://devntv.github.io/todoPlan/" target="_blank" 
-                               >
-                               My Project 3
+                            <Link className={classes.vinhProjectHover} href="https://devntv.github.io/todoPlan/" target="_blank"
+                            >
+                                My Project 3
                             </Link>
                         </Typography>
                     </Box>
@@ -224,22 +224,17 @@ const Resume = () => {
                         </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading}>
-                            Coming soon
+                            React Fresh
                             </Typography>
                         <Typography variant="body1" align="center" style={{ color: "#00e49a" }} className={classes.subDes}>
-                            I need a name beauty
+                            Website ReactFresh
                             </Typography>
                         <Typography variant="subtitle1" align="center" style={{ color: "white" }}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                             <Link className={classes.vinhProjectHover} href="#"
-                                onClick={() => {
-                                    alert("đang suy nghĩ :((.");
-                                }} >
-                                Project 4 is Coming soon...
+                            The project used Hook, custom components, reponsive basic, react Router, javaScript,...
+                             <Link className={classes.vinhProjectHover} href="https://devntv.github.io/reactFreshweb" target="_blank">
+                                My project 4
                             </Link>
-                            </Typography>
+                        </Typography>
                     </Box>
                     {/* timeLine 5 */}
 
@@ -248,22 +243,42 @@ const Resume = () => {
                         </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading}>
-                            Website Corona
+                            Project 6
                             </Typography>
                         <Typography variant="body1" align="center" style={{ color: "#00e49a" }} className={classes.subDes}>
-                            I need a name beauty
+                            Strarting....
                             </Typography>
                         <Typography variant="subtitle1" align="center" style={{ color: "white" }}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                              <Link className={classes.vinhProjectHover} href="#"
                                 onClick={() => {
-                                    alert("đang suy nghĩ :((.");
+                                    alert("Starting... :((.");
                                 }} >
-                                Project 5 is thinking...
+                                Project 5 is Starting....
                             </Link>
+                        </Typography>
+                    </Box>
+                    {/* time line 6 */}
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                        Project 6
+                        </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" align="center" className={classes.subHeading}>
+                             Project 6
                             </Typography>
+                        <Typography variant="body1" align="center" style={{ color: "#00e49a" }} className={classes.subDes}>
+                            Starting.....
+                            </Typography>
+                        <Typography variant="subtitle1" align="center" style={{ color: "white" }}>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                             <Link className={classes.vinhProjectHover} href="https://devntv.github.io/reactFreshweb" target="_blank">
+                             Project 6 is Starting....
+                            </Link>
+                        </Typography>
                     </Box>
                 </Box>
             </Box>
