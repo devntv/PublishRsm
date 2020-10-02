@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import {AppBar, Toolbar, ListItem, ListItemIcon, IconButton, ListItemText, Avatar, Divider, List, Typography, Box} from "@material-ui/core"
 import {MenuOpen,FavoriteBorder, GitHub, AssignmentInd, Home, BorderColor, ContactMail, Loyalty} from "@material-ui/icons";
 import { makeStyles } from '@material-ui/core/styles';
-import avatar1 from "../vinhbaby.jpg";
+import avatar1 from "../New.png";
 import MobilRightMenuSlider from "@material-ui/core/Drawer";
 import Footer from "./Footer";
 import Brightness4Icon from '@material-ui/icons/Brightness4';
