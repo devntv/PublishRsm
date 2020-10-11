@@ -1,1 +1,1 @@
-visit at devntv.github.io/PublishRsm
+visit at: https://devntv.github.io/PublishRsm
