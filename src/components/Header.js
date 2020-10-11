@@ -84,7 +84,7 @@ const Header = () => {
                 strings={[
                     'Hello World  ✔',
                     'Hello , Who is here ?  ',
-                    'Happy Coding 💕']}
+                    'Happy Coding and lucky 💕']}
                     typeSpeed={40}
                     backSpeed={50}                     
                     >          
