@@ -3,6 +3,7 @@ import {Avatar, Typography, Box,  Grid} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles"
 import avatar1 from "../New.png";
 import Typed from 'react-typed';
+import ReactPlayer from 'react-player'
 
 //css style 
 const useStyles = makeStyles(theme=>({
@@ -25,17 +26,43 @@ const useStyles = makeStyles(theme=>({
         transform: "translate(-50%, -50%)",
         width:"100vw",
         textAlign: "center",
-        zIndex: 1
+        zIndex: 1,
+       
+        
+    },
+    typedContainer2:{
+        position:"absolute",
+        top:"80%",
+        left:"0%",
+        // transform: "translate(-50%, -50%)",
+        width:"100vw",
+        textAlign: "center",
+        zIndex: 1,
+       
+        
+    },
+    cssVideo:{
+        opacity: "0.3",
+        position:"absolute",
+        top:"50%",
+        left:"50%",
+        transform: "translate(-50%, -50%)",
+        marginTop:"5%",
+        border:" 0.5px solid #61dafb",
+        width: "579px !important",
+        height:"329px !important"
     }
 }))
 
 const Header = () => {
     const classes = useStyles();
-    return (
-       
-          
-         
-        <Box className={classes.typedContainer}>
+
+    return (   
+          <>
+        <h1 className={classes.typedContainer2 }>
+            <ReactPlayer playing={true} onReady={true} className={classes.cssVideo} controls url='https://www.youtube.com/watch?v=X_o_4WdFbYk' />
+        </h1>
+        <Box className={classes.typedContainer } >
             <Grid container justify="center">
                 <Avatar className={classes.avatar} src={avatar1} alt="Dinh handsome "/> 
             </Grid>          
@@ -56,14 +83,12 @@ const Header = () => {
                     'Hello , Who is here ?  ',
                     'Happy Lucking 💕']}
                     typeSpeed={40}
-                    backSpeed={50}   
-                    
+                    backSpeed={50}                     
                     >          
                 </Typed>
             </Typography>
-
-        </Box>
-     
+        </Box>   
+        </>   
     )
 }
 

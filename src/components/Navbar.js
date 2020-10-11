@@ -8,9 +8,12 @@ import MobilRightMenuSlider from "@material-ui/core/Drawer";
 import Footer from "./Footer";
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 //import {ThemeProvider, createGlobalStyle} from 'styled-components';
-
-
-
+import FormatListBulletedIcon from '@material-ui/icons/FormatListBulleted';
+import InfoIcon from '@material-ui/icons/Info';
+import CodeIcon from '@material-ui/icons/Code';
+import UnarchiveIcon from '@material-ui/icons/Unarchive';
+import MenuIcon from '@material-ui/icons/Menu';
+import CloseIcon from '@material-ui/icons/Close';
 
 //css style 
 const useStyles =makeStyles(theme =>({
@@ -44,13 +47,13 @@ const menuItems = [
         listPath: "/"
     },
     {
-        listIcon: <AssignmentInd />,
+        listIcon: <CodeIcon />,
         listText: "Resume Project",
         listPath: "/my-resume"
     },
 
     {
-        listIcon: <BorderColor />,
+        listIcon: <UnarchiveIcon />,
         listText: "My target",
         listPath: "/my-target"
     },
@@ -61,8 +64,8 @@ const menuItems = [
         listPath:"/contacts"
     },
     {
-        listIcon: <Loyalty />,
-        listText: "Introduce ",
+        listIcon: <InfoIcon />,
+        listText: " About ",
         listPath:"/I-troduce"
     }
 ]
@@ -74,9 +77,12 @@ const Navbar = () => {
 
     const toggleSlider = (slider,open) =>() =>{
         setState({...state, [slider]:open})
+        setClick(false)
     }
 
-    
+    // 
+    const [click, setClick] = useState(true);
+    const menuHandle =()=> setClick(!click);
     
 
     const classes = useStyles();
@@ -104,7 +110,7 @@ const Navbar = () => {
             <AppBar position ="fixed" style ={{background:"#20232a"}}>
                 <Toolbar >
                     <IconButton style={{color:"#61dafb"}} onClick ={toggleSlider("right",true)}>
-                         <MenuOpen style={{color:"#61dafb",fontSize:"40px"}} />
+                         { click ? <  MenuIcon  style={{color:"#61dafb",fontSize:"40px",transition:"all 2s ease-out"}} /> :<CloseIcon style={{color:"#61dafb",fontSize:"40px",transition:"all 2s ease-out"}}/> }
                     </IconButton>  
                     <Toolbar className ={classes.gitHubLink}>
                     <Typography  variant="h6" style={{color:"#f8f8f8",marginLeft:"-30px"}}>
@@ -116,6 +122,8 @@ const Navbar = () => {
                                 anchor="right" 
                                 open={state.right}
                                 onClose={toggleSlider("right",false)}
+                                onClick ={menuHandle}
+                               
                           >{sideList("right")}
                           <Footer/>
                           </MobilRightMenuSlider>  

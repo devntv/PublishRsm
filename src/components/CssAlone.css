@@ -1,0 +1,20 @@
+ .ImgAlone{
+    background: url(../coffee-apple.jpg) !important;
+    background-size: cover;
+    opacity: 1;
+    -webkit-background: cover;
+    -moz-background: cover;
+    -o-background: cover;
+    background: cover;
+  } 
+  .hh{
+    background: url(../coffee-apple.jpg);
+      height: 100vh;
+      color: white;
+      z-index: 222;
+      width: 100vw;
+      position: relative;
+      text-align: center;
+      margin: 0 auto;
+  }
+ 

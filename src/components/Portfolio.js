@@ -49,7 +49,7 @@ const Portfolio = () => {
               />
               <CardContent>
                   <Typography variant="h5" gutterBottom>
-                        Target in 1 Year- lương nghìn đô 
+                        Target in 1 Year
                   </Typography>
                   <Typography variant="body2" color="textSecondary"  component="p">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 

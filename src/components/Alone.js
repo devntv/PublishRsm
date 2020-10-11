@@ -4,6 +4,8 @@ import Zoom from 'react-reveal/Zoom';
 import { makeStyles } from "@material-ui/core/styles"
 import { Typography, Box, } from "@material-ui/core";
 import Typed from 'react-typed';
+import './CssAlone.css'
+
 const useStyles = makeStyles({
     textZoom: {
         position: "absolute",
@@ -17,12 +19,12 @@ const useStyles = makeStyles({
 const Alone = () => {
     const classes = useStyles();
     return (
-        <div>
+      <>
 
             <Navbar />
-
+            <div className='hh'>
             <Box className={classes.textZoom} >
-                <Zoom >
+                {/* <Zoom > */}
                     <Typography style={{
                         fontSize: "270px"
                         , position: "absolute",
@@ -38,7 +40,7 @@ const Alone = () => {
                                                     </Typed>     */}
 
                         {/* <Loyalty style={{ fontSize: "250px",}} /> */}
-                    </Typography>
+                    </Typography> 
                     <Typed style={{ color: "tomato", fontSize: "20px",textTransform: "uppercase" }} strings={['this website is all of something that i make project  ', 'and upload all information about it.'
 
                     ]}
@@ -47,9 +49,11 @@ const Alone = () => {
                         {/* <Typography >the owner of this website</Typography> */}
 
                     </Typed>
-                </Zoom>
+                {/* </Zoom> */}
             </Box>
         </div>
+
+        </>
     )
 }
 
