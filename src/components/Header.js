@@ -53,15 +53,17 @@ const useStyles = makeStyles(theme=>({
         height:"329px !important"
     }
 }))
-
+const listUrl =['https://www.youtube.com/watch?v=X_o_4WdFbYk','https://www.youtube.com/watch?v=2u82tF5uk9s']
 const Header = () => {
     const classes = useStyles();
 
     return (   
           <>
-        <h1 className={classes.typedContainer2 }>
-            <ReactPlayer playing={true} onReady={true} className={classes.cssVideo} controls url='https://www.youtube.com/watch?v=X_o_4WdFbYk' />
-        </h1>
+        {/* <div className={classes.typedContainer2 }> */}
+        <div>
+            <ReactPlayer loop playing={true} onReady={true} className={classes.cssVideo} controls
+             url={listUrl} />    
+        </div>
         <Box className={classes.typedContainer } >
             <Grid container justify="center">
                 <Avatar className={classes.avatar} src={avatar1} alt="Dinh handsome "/> 
