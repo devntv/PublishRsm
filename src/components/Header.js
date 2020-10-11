@@ -59,9 +59,10 @@ const Header = () => {
 
     return (   
           <>
+          
         {/* <div className={classes.typedContainer2 }> */}
-        <div>
-            <ReactPlayer loop playing={true} onReady={true} className={classes.cssVideo} controls
+        <div  >
+            <ReactPlayer  loop ={true} playing={true}  className={classes.cssVideo} 
              url={listUrl} />    
         </div>
         <Box className={classes.typedContainer } >
