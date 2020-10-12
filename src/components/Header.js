@@ -63,7 +63,7 @@ const Header = () => {
         {/* <div className={classes.typedContainer2 }> */}
         <div  >
             <ReactPlayer  loop ={true} playing={true}  className={classes.cssVideo} 
-             url={listUrl} />    
+             url={listUrl} playsinline={true} />    
         </div>
         <Box className={classes.typedContainer } >
             <Grid container justify="center">
