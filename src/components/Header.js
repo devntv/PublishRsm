@@ -62,7 +62,7 @@ const Header = () => {
           
         {/* <div className={classes.typedContainer2 }> */}
         <div  >
-            <ReactPlayer  loop ={true} playing={true}  className={classes.cssVideo} 
+            <ReactPlayer  loop ={true} playing={true} className={classes.cssVideo} 
              url={listUrl} playsinline={true} />    
         </div>
         <Box className={classes.typedContainer } >
@@ -83,8 +83,12 @@ const Header = () => {
             <Typed
                 strings={[
                     'Hello World  ✔',
-                    'Hello , Who is here ?  ',
-                    'Happy Coding and lucky 💕']}
+                    'This website',
+                    'can be not work well', 
+                    'on mobile devices',
+                    'So please guaranteed your browser',
+                    'is on a Laptop or PC' ,
+                    'Have a good Day 💕']}
                     typeSpeed={40}
                     backSpeed={50}                     
                     >          
