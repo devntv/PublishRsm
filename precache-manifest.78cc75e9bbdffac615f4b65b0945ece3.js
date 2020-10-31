@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30dd44e8e60aa0da7f9993155de7acf8",
+    "revision": "a8dc4d1f7a72458683abe9fc94388c61",
     "url": "/PublishRsm/index.html"
   },
   {
-    "revision": "1b6908135aeb207bb8c5",
-    "url": "/PublishRsm/static/css/main.113e3577.chunk.css"
+    "revision": "d6222b7c69aef88ae10f",
+    "url": "/PublishRsm/static/css/main.32e9a5ce.chunk.css"
   },
   {
     "revision": "f88fe7c4d29e6d0a8d2b",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PublishRsm/static/js/2.57c890a3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1b6908135aeb207bb8c5",
+    "revision": "d6222b7c69aef88ae10f",
     "url": "/PublishRsm/static/js/main.ad0ccba9.chunk.js"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PublishRsm/static/media/coffee-apple.2dd213aa.jpg"
   },
   {
-    "revision": "355cdcf04cd78bb1a6a1eb8302ea40b2",
-    "url": "/PublishRsm/static/media/event-halloween.355cdcf0.png"
+    "revision": "edc72a10a1a9234f930cc056beb77c77",
+    "url": "/PublishRsm/static/media/event-halloween.edc72a10.png"
   },
   {
     "revision": "54fd423489a1937caf8950d12c8a8526",
