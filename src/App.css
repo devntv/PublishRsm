@@ -1,5 +1,6 @@
 body{
-  background: url(w1.jpg) no-repeat center center fixed ;
+  /* background: url(w1.jpg) no-repeat center center fixed ; */
+  background: url(event-halloween.png) no-repeat center center fixed ;
   background-size: cover;
   opacity: 0.85;
   -webkit-background: cover;

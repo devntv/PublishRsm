@@ -71,6 +71,7 @@ const menuItems = [
 ]
 
 const Navbar = () => {
+
     const[state,setState] = useState({
         right: false
     })
@@ -80,11 +81,9 @@ const Navbar = () => {
         setClick(false)
     }
 
-    // 
+    // Handle menu toggle 
     const [click, setClick] = useState(true);
     const menuHandle =()=> setClick(!click);
-    
-
     const classes = useStyles();
 
     const sideList = slider => (
@@ -102,15 +101,13 @@ const Navbar = () => {
         </Box>
     )
 
-    return (
-       
-            <>
-           
+    return (   
+            <>      
         <Box component="nav" >
             <AppBar position ="fixed" style ={{background:"#20232a"}}>
                 <Toolbar >
                     <IconButton style={{color:"#61dafb"}} onClick ={toggleSlider("right",true)}>
-                         { click ? <  MenuIcon  style={{color:"#61dafb",fontSize:"40px",transition:"all 2s ease-out"}} /> :<CloseIcon style={{color:"#61dafb",fontSize:"40px",transition:"all 2s ease-out"}}/> }
+                         { click ? <  MenuIcon  style={{color:"#61dafb",fontSize:"40px"}} /> :<CloseIcon style={{color:"#61dafb",fontSize:"40px"}}/> }
                     </IconButton>  
                     <Toolbar className ={classes.gitHubLink}>
                     <Typography  variant="h6" style={{color:"#f8f8f8",marginLeft:"-30px"}}>
@@ -122,8 +119,7 @@ const Navbar = () => {
                                 anchor="right" 
                                 open={state.right}
                                 onClose={toggleSlider("right",false)}
-                                onClick ={menuHandle}
-                               
+                                onClick ={menuHandle}                 
                           >{sideList("right")}
                           <Footer/>
                           </MobilRightMenuSlider>  
@@ -134,10 +130,7 @@ const Navbar = () => {
                 </Toolbar>                  
             </AppBar>          
         </Box>
-
-
-        </>
-       
+        </>  
     )
 }
 

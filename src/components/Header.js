@@ -48,12 +48,14 @@ const useStyles = makeStyles(theme=>({
         left:"50%",
         transform: "translate(-50%, -50%)",
         marginTop:"5%",
-        border:" 0.5px solid #61dafb",
+        border:" 0.5px solid #1d0037" , 
+        // eventHalloween:#410744,#1d0037, basic: #61dafb
         width: "579px !important",
         height:"329px !important"
     }
 }))
-const listUrl =['https://www.youtube.com/watch?v=X_o_4WdFbYk','https://www.youtube.com/watch?v=2u82tF5uk9s']
+// const listUrl =['https://www.youtube.com/watch?v=X_o_4WdFbYk','https://www.youtube.com/watch?v=2u82tF5uk9s']
+const listUrlHalloween =['https://www.youtube.com/watch?v=gqVyois9mp4']
 const Header = () => {
     const classes = useStyles();
 
@@ -63,7 +65,7 @@ const Header = () => {
         {/* <div className={classes.typedContainer2 }> */}
         <div  >
             <ReactPlayer  loop ={true} playing={true} className={classes.cssVideo} 
-             url={listUrl} playsinline={true} />    
+             url={listUrlHalloween} playsinline={true} />    
         </div>
         <Box className={classes.typedContainer } >
             <Grid container justify="center">
@@ -71,16 +73,18 @@ const Header = () => {
             </Grid>          
             <Typography className={classes.title}  variant="h4">
             <Typed
+            style={{color:"#fff"}}
                 strings={[
                     'NT Vinh Nguyen',]}                
                     typeSpeed={40}
                     backSpeed={50}   
                     >          
-                </Typed>
+            </Typed>
             </Typography>
             <br />
             <Typography className={classes.subTitle}  variant="h5">
             <Typed
+            style={{fontWeight:"bold"}}
                 strings={[
                     'Hello World  ✔',
                     'This website',
@@ -88,7 +92,7 @@ const Header = () => {
                     'on mobile devices',
                     'So please guaranteed your browser',
                     'is on a Laptop or PC' ,
-                    'Have a good Day 💕']}
+                    'Happy Halloween 2020 🎃🎃']}
                     typeSpeed={40}
                     backSpeed={50}                     
                     >          
