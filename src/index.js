@@ -10,9 +10,9 @@ ReactDOM.render(
     <Router>
         <App />
        
-          <Snowfall snowflakeCount={30}/>
+          <Snowfall snowflakeCount={35}/>
        
-        <SnowStorm ludeMobile={false}  flakesMaxActive={70}/>
+        <SnowStorm ludeMobile={true}  flakesMaxActive={70}/>
     </Router>,
   // </React.StrictMode>,
   document.getElementById('root')
