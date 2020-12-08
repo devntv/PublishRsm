@@ -16,6 +16,7 @@ import project1 from "../images/html-css-javascript-lg.jpg";
 import project2 from "../images/javascript-fullstack.jpg";
 import project3 from "../images/react-redux.jpg";
 import project4 from "../images/mern-stack.jpg"
+
 const userStyles = makeStyles({
     mainContainer:{
         background:"#5d5d6c",
@@ -31,6 +32,8 @@ const userStyles = makeStyles({
 const Portfolio = () => {
     const classes = userStyles();
   return (
+    <>
+     
     <Box component="div" className ={classes.mainContainer}>
       <Navbar />
       <Typography  variant="h4" align="center">
@@ -155,6 +158,7 @@ const Portfolio = () => {
         </Grid>
       </Grid>
     </Box>
+    </>
   );
 };
 

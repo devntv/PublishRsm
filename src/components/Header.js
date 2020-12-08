@@ -5,6 +5,7 @@ import avatar1 from "../New.png";
 import Typed from 'react-typed';
 import ReactPlayer from 'react-player'
 
+
 //css style 
 const useStyles = makeStyles(theme=>({
     avatar:{
@@ -55,17 +56,18 @@ const useStyles = makeStyles(theme=>({
     }
 }))
 // const listUrl =['https://www.youtube.com/watch?v=X_o_4WdFbYk','https://www.youtube.com/watch?v=2u82tF5uk9s']
-const listUrlHalloween =['https://www.youtube.com/watch?v=gqVyois9mp4']
+// const listUrlHalloween =['https://www.youtube.com/watch?v=gqVyois9mp4']
+const listUrlNoel = ['https://www.youtube.com/watch?v=U5B6p9gmttg']
 const Header = () => {
     const classes = useStyles();
 
     return (   
           <>
-          
+        
         {/* <div className={classes.typedContainer2 }> */}
         <div  >
-            <ReactPlayer  loop ={true} playing={true} className={classes.cssVideo} 
-             url={listUrlHalloween} playsinline={true} />    
+            <ReactPlayer  playing={true} className={classes.cssVideo} 
+             url={listUrlNoel} playsinline={true} style={{opacity:'0.1'}} />    
         </div>
         <Box className={classes.typedContainer } >
             <Grid container justify="center">
@@ -92,13 +94,14 @@ const Header = () => {
                     'on mobile devices',
                     'So please guaranteed your browser',
                     'is on a Laptop or PC' ,
-                    'Happy Halloween 2020 🎃🎃']}
+                    'Happy ChristMast 🎅🎅']}
                     typeSpeed={40}
                     backSpeed={50}                     
                     >          
                 </Typed>
             </Typography>
         </Box>   
+      
         </>   
     )
 }

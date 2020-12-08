@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter as Router} from "react-router-dom"
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+import SnowStorm from 'react-snowstorm';
 ReactDOM.render(
   // <React.StrictMode>
     <Router>
         <App />
+        <SnowStorm ludeMobile={false} flakesMaxActive={90}/>
     </Router>,
   // </React.StrictMode>,
   document.getElementById('root')

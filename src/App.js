@@ -12,8 +12,10 @@ import Contact from "./components/Contact"
 
 
 
+
 function App() {
   return (
+   <>
    
     <Router>
     <CssBaseline />
@@ -24,6 +26,7 @@ function App() {
       <Route path="/I-troduce" component={Alone}/>    
       </Router>
     
+    </>
   );
 }
 
