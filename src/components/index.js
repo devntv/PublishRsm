@@ -1,18 +1,18 @@
 import React from 'react'
 import Navbar from "./Navbar";
 import Header from "./Header"
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 import {makeStyles} from "@material-ui/styles"
 
 //style
-const useStyles = makeStyles({
-    ParticipleCanvas:{
-        position:"absolute",
-        opacity:"0.85"
-    }
-});
+// const useStyles = makeStyles({
+//     ParticipleCanvas:{
+//         position:"absolute",
+//         opacity:"0.85"
+//     }
+// });
 const Home = () => {
-    const classes = useStyles();
+    // const classes = useStyles();
     return (
         <>
            <Navbar />

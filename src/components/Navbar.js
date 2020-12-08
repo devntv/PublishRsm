@@ -1,14 +1,14 @@
 import React,{useState} from 'react';
 import {Link} from "react-router-dom";
 import {AppBar, Toolbar, ListItem, ListItemIcon, IconButton, ListItemText, Avatar, Divider, List, Typography, Box} from "@material-ui/core"
-import {MenuOpen,FavoriteBorder, GitHub, AssignmentInd, Home, BorderColor, ContactMail, Loyalty} from "@material-ui/icons";
+import { GitHub,  Home, ContactMail} from "@material-ui/icons";
 import { makeStyles } from '@material-ui/core/styles';
-import avatar1 from "../New.png";
+import avatar1 from "../meo1.jpg";
 import MobilRightMenuSlider from "@material-ui/core/Drawer";
 import Footer from "./Footer";
-import Brightness4Icon from '@material-ui/icons/Brightness4';
+// import Brightness4Icon from '@material-ui/icons/Brightness4';
 //import {ThemeProvider, createGlobalStyle} from 'styled-components';
-import FormatListBulletedIcon from '@material-ui/icons/FormatListBulleted';
+// import FormatListBulletedIcon from '@material-ui/icons/FormatListBulleted';
 import InfoIcon from '@material-ui/icons/Info';
 import CodeIcon from '@material-ui/icons/Code';
 import UnarchiveIcon from '@material-ui/icons/Unarchive';

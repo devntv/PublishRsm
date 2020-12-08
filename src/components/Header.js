@@ -1,7 +1,7 @@
 import React from 'react';
 import {Avatar, Typography, Box,  Grid} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles"
-import avatar1 from "../New.png";
+import avatar1 from "../meo1.jpg";
 import Typed from 'react-typed';
 import ReactPlayer from 'react-player'
 
@@ -57,7 +57,7 @@ const useStyles = makeStyles(theme=>({
 }))
 // const listUrl =['https://www.youtube.com/watch?v=X_o_4WdFbYk','https://www.youtube.com/watch?v=2u82tF5uk9s']
 // const listUrlHalloween =['https://www.youtube.com/watch?v=gqVyois9mp4']
-const listUrlNoel = ['https://www.youtube.com/watch?v=U5B6p9gmttg']
+const listUrlNoel = ['https://www.youtube.com/watch?v=U5B6p9gmttg', 'https://www.youtube.com/watch?v=S6rZtIipew8','https://www.youtube.com/watch?v=DeT8JqNf7zg']
 const Header = () => {
     const classes = useStyles();
 
@@ -66,7 +66,7 @@ const Header = () => {
         
         {/* <div className={classes.typedContainer2 }> */}
         <div  >
-            <ReactPlayer  playing={true} className={classes.cssVideo} 
+            <ReactPlayer loop playing={true} className={classes.cssVideo} 
              url={listUrlNoel} playsinline={true} style={{opacity:'0.1'}} />    
         </div>
         <Box className={classes.typedContainer } >

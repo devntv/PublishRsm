@@ -7,6 +7,9 @@ body{
   -moz-background: cover;
   -o-background: cover;
   background: cover;
+  height: 100vh;
+  
+  box-sizing: border-box;
 }
 .aLone{
   background: url(coffee-apple.jpg);

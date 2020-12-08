@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from "./Navbar"
-import Zoom from 'react-reveal/Zoom';
+// import Zoom from 'react-reveal/Zoom';
 import { makeStyles } from "@material-ui/core/styles"
 import { Typography, Box, } from "@material-ui/core";
 import Typed from 'react-typed';
