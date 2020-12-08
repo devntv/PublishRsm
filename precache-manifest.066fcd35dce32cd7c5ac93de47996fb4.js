@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a8dc4d1f7a72458683abe9fc94388c61",
+    "revision": "c7a2666b8c59f4d736fa287450c8a74e",
     "url": "/PublishRsm/index.html"
   },
   {
-    "revision": "d6222b7c69aef88ae10f",
-    "url": "/PublishRsm/static/css/main.32e9a5ce.chunk.css"
+    "revision": "fa6b44f0fad461532043",
+    "url": "/PublishRsm/static/css/main.a2ce482d.chunk.css"
   },
   {
-    "revision": "f88fe7c4d29e6d0a8d2b",
-    "url": "/PublishRsm/static/js/2.57c890a3.chunk.js"
+    "revision": "7f1acbbe69e64ed6e0d1",
+    "url": "/PublishRsm/static/js/2.ae4df8d6.chunk.js"
   },
   {
-    "revision": "e4279675a9c60179159c82343fcf3639",
-    "url": "/PublishRsm/static/js/2.57c890a3.chunk.js.LICENSE.txt"
+    "revision": "95b3cf0f35dd0abd4e9bd6fde77b193d",
+    "url": "/PublishRsm/static/js/2.ae4df8d6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d6222b7c69aef88ae10f",
-    "url": "/PublishRsm/static/js/main.ad0ccba9.chunk.js"
+    "revision": "fa6b44f0fad461532043",
+    "url": "/PublishRsm/static/js/main.b670e2eb.chunk.js"
   },
   {
     "revision": "e8f3c602ca8592c668f8",
@@ -32,10 +32,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PublishRsm/static/media/coffee-apple.2dd213aa.jpg"
   },
   {
-    "revision": "edc72a10a1a9234f930cc056beb77c77",
-    "url": "/PublishRsm/static/media/event-halloween.edc72a10.png"
-  },
-  {
     "revision": "54fd423489a1937caf8950d12c8a8526",
     "url": "/PublishRsm/static/media/html-css-javascript-lg.54fd4234.jpg"
   },
@@ -46,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "90616a5dc9acdcce7158addc89620052",
     "url": "/PublishRsm/static/media/mern-stack.90616a5d.jpg"
+  },
+  {
+    "revision": "ef662266a058b23308cd037fad0e5496",
+    "url": "/PublishRsm/static/media/noel.ef662266.jpg"
   },
   {
     "revision": "a8b012a0d7afd08ee07251e1f67294ff",
