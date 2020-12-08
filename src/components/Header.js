@@ -94,7 +94,7 @@ const Header = () => {
                     'on mobile devices',
                     'So please guaranteed your browser',
                     'is on a Laptop or PC' ,
-                    'Happy ChristMast 🎅🎅']}
+                    'Merry ChristMas 2020 🎄🎄 - 🎅🎅']}
                     typeSpeed={40}
                     backSpeed={50}                     
                     >          
