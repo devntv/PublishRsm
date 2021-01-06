@@ -12,6 +12,9 @@ const useStyles = makeStyles(theme=>({
         width :theme.spacing(15),
         height :theme.spacing(15),
         margin:theme.spacing(1),
+        position: 'relative',
+        zIndex: 99999,
+        border: "2px solid #fff"
     },
     title:{
         color:"#383839"
@@ -27,7 +30,7 @@ const useStyles = makeStyles(theme=>({
         transform: "translate(-50%, -50%)",
         width:"100vw",
         textAlign: "center",
-        zIndex: 1,
+        zIndex: 999,
        
         
     },
@@ -57,7 +60,7 @@ const useStyles = makeStyles(theme=>({
 }))
 // const listUrl =['https://www.youtube.com/watch?v=X_o_4WdFbYk','https://www.youtube.com/watch?v=2u82tF5uk9s']
 // const listUrlHalloween =['https://www.youtube.com/watch?v=gqVyois9mp4']
-const listUrlNoel = ['https://www.youtube.com/watch?v=U5B6p9gmttg', 'https://www.youtube.com/watch?v=S6rZtIipew8','https://www.youtube.com/watch?v=DeT8JqNf7zg']
+const listUrlNewyear = ['https://www.youtube.com/watch?v=SeFtECgW1XU']
 const Header = () => {
     const classes = useStyles();
 
@@ -67,7 +70,7 @@ const Header = () => {
         {/* <div className={classes.typedContainer2 }> */}
         <div  >
             <ReactPlayer loop playing={true} className={classes.cssVideo} 
-             url={listUrlNoel} playsinline={true} style={{opacity:'0.1'}} />    
+             url={listUrlNewyear} playsinline={true} style={{opacity:'0.1'}} />    
         </div>
         <Box className={classes.typedContainer } >
             <Grid container justify="center">
@@ -94,7 +97,7 @@ const Header = () => {
                     'on mobile devices',
                     'So please guaranteed your browser',
                     'is on a Laptop or PC' ,
-                    'Merry ChristMas 2020 🎄🎄 - 🎅🎅']}
+                    'Happy new year 2021 - 🎆🎆 🎇🎇']}
                     typeSpeed={40}
                     backSpeed={50}                     
                     >          

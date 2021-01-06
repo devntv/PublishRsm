@@ -1,6 +1,6 @@
 body{
   /* background: url(w1.jpg) no-repeat center center fixed ; */
-  background: url(noel.jpg) no-repeat center center fixed ;
+  background: url(tet.jpg) no-repeat center center fixed ;
   background-size: cover;
   opacity: 0.85;
   -webkit-background: cover;
@@ -8,8 +8,9 @@ body{
   -o-background: cover;
   background: cover;
   height: 100vh;
-  
+  position: relative;
   box-sizing: border-box;
+  z-index: 0;
 }
 .aLone{
   background: url(coffee-apple.jpg);

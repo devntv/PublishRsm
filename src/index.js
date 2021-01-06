@@ -7,9 +7,9 @@ import SnowStorm from 'react-snowstorm';
 import Snowfall from 'react-snowfall'
 ReactDOM.render(   
     <Router>
-         <Snowfall  snowflakeCount={35}  style={{height:'100vh'}}/>
+         {/* <Snowfall  snowflakeCount={35}  style={{height:'100vh'}}/> */}
         <App />   
-        <SnowStorm ludeMobile={true}  flakesMaxActive={70}/>
+        {/* <SnowStorm ludeMobile={true}  flakesMaxActive={70}/> */}
     </Router>,
   document.getElementById('root')
  
